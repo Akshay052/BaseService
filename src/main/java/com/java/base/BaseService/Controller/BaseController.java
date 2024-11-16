@@ -9,6 +9,6 @@ public class BaseController {
     @GetMapping("/start")
     String getstarted() {
 
-        return "App is up and running";
+        return "App is up and running...";
     }
 }
